@@ -1,50 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Primary SEO Metadata -->
     <title>Kalyansevak Jyotish - Authentic Vedic Astrology & Kundli App</title>
-    <meta name="description"
-        content="Calculate detailed birth charts (Kundli), analyze planetary states, match compatibility, and book certified astrologers securely on the Kalyansevak Jyotish Android app.">
-    <meta name="keywords"
-        content="astrology app, kundli generator, horoscope analysis, gun milan, matchmaking, vedic astrology india, cashfree secure payment, download kundli pdf">
+    <meta name="description" content="Calculate detailed birth charts (Kundli), analyze planetary states, match compatibility, and book certified astrologers securely on the Kalyansevak Jyotish Android app.">
+    <meta name="keywords" content="astrology app, kundli generator, horoscope analysis, gun milan, matchmaking, vedic astrology india, cashfree secure payment, download kundli pdf">
     <meta name="author" content="Shree KalyanSevak Jyotish">
-
+    
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://kalyansevak.com/">
     <meta property="og:title" content="Kalyansevak Jyotish - Authentic Vedic Astrology & Kundli App">
-    <meta property="og:description"
-        content="Download the ultimate astrology companion. Generate precise Kundli, check match compatibility, and consult certified astrologers with absolute data privacy.">
+    <meta property="og:description" content="Download the ultimate astrology companion. Generate precise Kundli, check match compatibility, and consult certified astrologers with absolute data privacy.">
     <meta property="og:image" content="./assets/Splash.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://kalyansevak.com/">
     <meta property="twitter:title" content="Kalyansevak Jyotish - Authentic Vedic Astrology & Kundli App">
-    <meta property="twitter:description"
-        content="Download the ultimate astrology companion. Generate precise Kundli, check match compatibility, and consult certified astrologers with absolute data privacy.">
+    <meta property="twitter:description" content="Download the ultimate astrology companion. Generate precise Kundli, check match compatibility, and consult certified astrologers with absolute data privacy.">
     <meta property="twitter:image" content="./assets/Splash.png">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="./assets/app_icon.png">
-
+    
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
     <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
@@ -68,37 +60,35 @@
                     </div>
                 </div>
                 <div class="nav-mobile-cta">
-                    <a href="https://github.com/vaibhav963963-netizen/kalyansevak-legal/releases/download/v1.0.0/app-release.apk"
-                        ...>
-                </div>
-                <div class="nav-actions">
-                    <!-- Language Selector Dropdown -->
-                    <div class="lang-selector">
-                        <button class="lang-btn" id="langBtn" aria-label="Change Language">
-                            <i class="fa-solid fa-language"></i>
-                            <span id="currentLang">English</span>
-                            <i class="fa-solid fa-chevron-down"></i>
-                        </button>
-                        <div class="lang-dropdown" id="langDropdown">
-                            <button class="lang-option active" data-lang="en">English</button>
-                            <button class="lang-option" data-lang="hi">हिंदी</button>
-                            <button class="lang-option" data-lang="mr">मराठी</button>
-                        </div>
-                    </div>
-
-                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
-                        <i class="fa-solid fa-moon"></i>
-                    </button>
-                    <a href="https://github.com/vaibhav963963-netizen/kalyansevak-legal/releases/download/v1.0.0/app-release.apk"
-                        class="btn btn-primary btn-sm desktop-only-btn download-btn-trigger"
-                        data-i18n="nav-download">Download APK</a>
-                    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open navigation menu">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </button>
+                    <a href="./app-release.apk" class="btn btn-primary btn-sm download-btn-trigger" data-i18n="nav-download">Download APK</a>
                 </div>
             </div>
+            <div class="nav-actions">
+                <!-- Language Selector Dropdown -->
+                <div class="lang-selector">
+                    <button class="lang-btn" id="langBtn" aria-label="Change Language">
+                        <i class="fa-solid fa-language"></i>
+                        <span id="currentLang">English</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="lang-dropdown" id="langDropdown">
+                        <button class="lang-option active" data-lang="en">English</button>
+                        <button class="lang-option" data-lang="hi">हिंदी</button>
+                        <button class="lang-option" data-lang="mr">मराठी</button>
+                    </div>
+                </div>
+                
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <a href="./app-release.apk" class="btn btn-primary btn-sm desktop-only-btn download-btn-trigger" data-i18n="nav-download">Download APK</a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
     </nav>
 
     <!-- Hero Section -->
@@ -111,12 +101,9 @@
                         <i class="fa-solid fa-dharmachakra"></i> Authentic Vedic Astrology
                     </div>
                     <h1 data-i18n="hero-title">Discover Your Cosmic Path with Accurate Astrological Insights</h1>
-                    <p class="hero-desc" data-i18n="hero-desc">Calculate detailed birth charts (Kundli), analyze
-                        planetary positions, match compatibilities, and get direct consultations from India's top
-                        verified astrologers securely.</p>
+                    <p class="hero-desc" data-i18n="hero-desc">Calculate detailed birth charts (Kundli), analyze planetary positions, match compatibilities, and get direct consultations from India's top verified astrologers securely.</p>
                     <div class="hero-btn-group">
-                        <a href="https://github.com/vaibhav963963-netizen/kalyansevak-legal/releases/download/v1.0.0/app-release.apk"
-                            class="btn btn-primary download-btn-trigger" data-i18n="hero-btn-download">
+                        <a href="./app-release.apk" class="btn btn-primary download-btn-trigger" data-i18n="hero-btn-download">
                             <i class="fa-solid fa-download"></i> Download APK (v1.0.0)
                         </a>
                         <a href="#features" class="btn btn-secondary" data-i18n="hero-btn-features">
@@ -128,8 +115,7 @@
                     <div class="phone-mockup-frame">
                         <div class="phone-punch-hole"></div>
                         <div class="phone-screen">
-                            <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.22 PM.jpeg"
-                                alt="Kalyansevak App Main Screen" class="phone-screen-img">
+                            <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.22 PM.jpeg" alt="Kalyansevak App Main Screen" class="phone-screen-img">
                         </div>
                     </div>
                 </div>
@@ -142,8 +128,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 data-i18n="features-title">Explore App Features</h2>
-                <p data-i18n="features-desc">Everything you need for spiritual guidance, personal analysis, and accurate
-                    horoscope calculations in one place.</p>
+                <p data-i18n="features-desc">Everything you need for spiritual guidance, personal analysis, and accurate horoscope calculations in one place.</p>
             </div>
             <div class="grid grid-4">
                 <!-- Card 1 -->
@@ -152,8 +137,7 @@
                         <i class="fa-solid fa-dharmachakra"></i>
                     </div>
                     <h3 data-i18n="feat-1-title">Kundli Generation</h3>
-                    <p data-i18n="feat-1-desc">Instant, detailed birth chart calculation based on Vedic astrology
-                        parameters and local coordinate accuracy.</p>
+                    <p data-i18n="feat-1-desc">Instant, detailed birth chart calculation based on Vedic astrology parameters and local coordinate accuracy.</p>
                 </div>
                 <!-- Card 2 -->
                 <div class="card feature-card">
@@ -161,8 +145,7 @@
                         <i class="fa-solid fa-chart-line"></i>
                     </div>
                     <h3 data-i18n="feat-2-title">Kundli Analysis</h3>
-                    <p data-i18n="feat-2-desc">In-depth planetary analysis, planetary states (Avasthas), and Dosha
-                        reports (Kalsarp, Mangal, etc.) calculated instantly.</p>
+                    <p data-i18n="feat-2-desc">In-depth planetary analysis, planetary states (Avasthas), and Dosha reports (Kalsarp, Mangal, etc.) calculated instantly.</p>
                 </div>
                 <!-- Card 3 -->
                 <div class="card feature-card">
@@ -170,8 +153,7 @@
                         <i class="fa-solid fa-heart-pulse"></i>
                     </div>
                     <h3 data-i18n="feat-3-title">Matchmaking</h3>
-                    <p data-i18n="feat-3-desc">Detailed 36-attribute matching (Ashtakoot Gun Milan) for marriage and
-                        relationship compatibility checks.</p>
+                    <p data-i18n="feat-3-desc">Detailed 36-attribute matching (Ashtakoot Gun Milan) for marriage and relationship compatibility checks.</p>
                 </div>
                 <!-- Card 4 -->
                 <div class="card feature-card">
@@ -179,8 +161,7 @@
                         <i class="fa-solid fa-calendar-days"></i>
                     </div>
                     <h3 data-i18n="feat-4-title">Event Booking</h3>
-                    <p data-i18n="feat-4-desc">Schedule online pooja ceremonies, personal video/voice calls, and
-                        consultations with certified astrologers.</p>
+                    <p data-i18n="feat-4-desc">Schedule online pooja ceremonies, personal video/voice calls, and consultations with certified astrologers.</p>
                 </div>
                 <!-- Card 5 -->
                 <div class="card feature-card">
@@ -188,8 +169,7 @@
                         <i class="fa-solid fa-file-pdf"></i>
                     </div>
                     <h3 data-i18n="feat-5-title">Digital Reports</h3>
-                    <p data-i18n="feat-5-desc">Download and print comprehensive, professionally analyzed PDF reports
-                        covering career, finance, and health.</p>
+                    <p data-i18n="feat-5-desc">Download and print comprehensive, professionally analyzed PDF reports covering career, finance, and health.</p>
                 </div>
                 <!-- Card 6 -->
                 <div class="card feature-card">
@@ -197,8 +177,7 @@
                         <i class="fa-solid fa-shield-halved"></i>
                     </div>
                     <h3 data-i18n="feat-6-title">Secure Payments</h3>
-                    <p data-i18n="feat-6-desc">100% secure payments integrated with Cashfree. No credit card or debit
-                        card numbers are stored on our servers.</p>
+                    <p data-i18n="feat-6-desc">100% secure payments integrated with Cashfree. No credit card or debit card numbers are stored on our servers.</p>
                 </div>
                 <!-- Card 7 -->
                 <div class="card feature-card">
@@ -206,8 +185,7 @@
                         <i class="fa-solid fa-receipt"></i>
                     </div>
                     <h3 data-i18n="feat-7-title">Manual Payment</h3>
-                    <p data-i18n="feat-7-desc">Alternative manual billing support and invoicing channels to assist users
-                        without access to standard online UPI.</p>
+                    <p data-i18n="feat-7-desc">Alternative manual billing support and invoicing channels to assist users without access to standard online UPI.</p>
                 </div>
                 <!-- Card 8 -->
                 <div class="card feature-card">
@@ -215,8 +193,7 @@
                         <i class="fa-solid fa-headset"></i>
                     </div>
                     <h3 data-i18n="feat-8-title">Fast Support</h3>
-                    <p data-i18n="feat-8-desc">Dedicated customer support team and grievance helpdesk resolving all app
-                        inquiries in under 24 business hours.</p>
+                    <p data-i18n="feat-8-desc">Dedicated customer support team and grievance helpdesk resolving all app inquiries in under 24 business hours.</p>
                 </div>
             </div>
         </div>
@@ -227,10 +204,9 @@
         <div class="container">
             <div class="section-header">
                 <h2 data-i18n="screens-title">Application Screenshots</h2>
-                <p data-i18n="screens-desc">Take a tour of our clean, intuitive, and modern app interface designed for
-                    seamless celestial navigation.</p>
+                <p data-i18n="screens-desc">Take a tour of our clean, intuitive, and modern app interface designed for seamless celestial navigation.</p>
             </div>
-
+            
             <div class="screenshots-carousel-container">
                 <button class="carousel-btn carousel-btn-prev" id="carouselPrev" aria-label="Previous Slide">
                     <i class="fa-solid fa-chevron-left"></i>
@@ -238,47 +214,39 @@
                 <button class="carousel-btn carousel-btn-next" id="carouselNext" aria-label="Next Slide">
                     <i class="fa-solid fa-chevron-right"></i>
                 </button>
-
+                
                 <div class="carousel-mockup-wrapper">
                     <div class="phone-punch-hole"></div>
                     <div class="carousel-viewport">
                         <div class="carousel-track" id="carouselTrack">
                             <div class="carousel-slide">
-                                <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.22 PM.jpeg"
-                                    alt="Kalyansevak App Main Screen" loading="lazy">
+                                <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.22 PM.jpeg" alt="Kalyansevak App Main Screen" loading="lazy">
                             </div>
                             <div class="carousel-slide">
-                                <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.22 PM (1).jpeg"
-                                    alt="Kalyansevak App Dashboard" loading="lazy">
+                                <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.22 PM (1).jpeg" alt="Kalyansevak App Dashboard" loading="lazy">
                             </div>
                             <div class="carousel-slide">
-                                <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.23 PM.jpeg"
-                                    alt="Kalyansevak Kundli Calculation" loading="lazy">
+                                <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.23 PM.jpeg" alt="Kalyansevak Kundli Calculation" loading="lazy">
                             </div>
                             <div class="carousel-slide">
-                                <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.23 PM (2).jpeg"
-                                    alt="Kalyansevak Astrologer Consultation" loading="lazy">
+                                <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.23 PM (2).jpeg" alt="Kalyansevak Astrologer Consultation" loading="lazy">
                             </div>
                             <div class="carousel-slide">
-                                <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.22 PM (3).jpeg"
-                                    alt="Kalyansevak Matchmaking Details" loading="lazy">
+                                <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.22 PM (3).jpeg" alt="Kalyansevak Matchmaking Details" loading="lazy">
                             </div>
                             <div class="carousel-slide">
-                                <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.23 PM (4).jpeg"
-                                    alt="Kalyansevak Booking Panel" loading="lazy">
+                                <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.23 PM (4).jpeg" alt="Kalyansevak Booking Panel" loading="lazy">
                             </div>
                             <div class="carousel-slide">
-                                <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.24 PM.jpeg"
-                                    alt="Kalyansevak Secure Checkout" loading="lazy">
+                                <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.24 PM.jpeg" alt="Kalyansevak Secure Checkout" loading="lazy">
                             </div>
                             <div class="carousel-slide">
-                                <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.24 PM (2).jpeg"
-                                    alt="Kalyansevak Library Section" loading="lazy">
+                                <img src="./assets/ss/WhatsApp Image 2026-06-03 at 3.05.24 PM (2).jpeg" alt="Kalyansevak Library Section" loading="lazy">
                             </div>
                         </div>
                     </div>
                 </div>
-
+                
                 <div class="carousel-dots" id="carouselDots"></div>
             </div>
         </div>
@@ -289,17 +257,15 @@
         <div class="container">
             <div class="section-header">
                 <h2 data-i18n="why-title">Why Choose Kalyansevak?</h2>
-                <p data-i18n="why-desc">We combine modern technological stability with authentic astronomical expertise
-                    to ensure a highly trusted service.</p>
+                <p data-i18n="why-desc">We combine modern technological stability with authentic astronomical expertise to ensure a highly trusted service.</p>
             </div>
-
+            
             <div class="grid grid-3">
                 <div class="card benefit-card">
                     <i class="fa-solid fa-square-check benefit-icon"></i>
                     <div class="benefit-info">
                         <h3 data-i18n="why-1-title">Accurate Astrology Reports</h3>
-                        <p data-i18n="why-1-desc">Our calculation engine is built using standard ephemeris coordinate
-                            models, providing precision planetary positions.</p>
+                        <p data-i18n="why-1-desc">Our calculation engine is built using standard ephemeris coordinate models, providing precision planetary positions.</p>
                     </div>
                 </div>
 
@@ -307,8 +273,7 @@
                     <i class="fa-solid fa-square-check benefit-icon"></i>
                     <div class="benefit-info">
                         <h3 data-i18n="why-2-title">Fast & Optimized Performance</h3>
-                        <p data-i18n="why-2-desc">Designed using lightweight native frameworks to ensure rapid loads,
-                            fast document compilation, and low data consumption.</p>
+                        <p data-i18n="why-2-desc">Designed using lightweight native frameworks to ensure rapid loads, fast document compilation, and low data consumption.</p>
                     </div>
                 </div>
 
@@ -316,8 +281,7 @@
                     <i class="fa-solid fa-square-check benefit-icon"></i>
                     <div class="benefit-info">
                         <h3 data-i18n="why-3-title">Secure Payments (Cashfree)</h3>
-                        <p data-i18n="why-3-desc">PCI-DSS compliant payment system with direct tokenization. Full card
-                            data is never processed or stored on our servers.</p>
+                        <p data-i18n="why-3-desc">PCI-DSS compliant payment system with direct tokenization. Full card data is never processed or stored on our servers.</p>
                     </div>
                 </div>
 
@@ -325,8 +289,7 @@
                     <i class="fa-solid fa-square-check benefit-icon"></i>
                     <div class="benefit-info">
                         <h3 data-i18n="why-4-title">Beautiful Interface</h3>
-                        <p data-i18n="why-4-desc">A refined, peaceful color scheme paired with clean layouts and dark
-                            mode support to provide a relaxing user experience.</p>
+                        <p data-i18n="why-4-desc">A refined, peaceful color scheme paired with clean layouts and dark mode support to provide a relaxing user experience.</p>
                     </div>
                 </div>
 
@@ -334,8 +297,7 @@
                     <i class="fa-solid fa-square-check benefit-icon"></i>
                     <div class="benefit-info">
                         <h3 data-i18n="why-5-title">Instant Downloads</h3>
-                        <p data-i18n="why-5-desc">Generate birth charts and detailed compatibility analysis reports in
-                            high-definition PDF instantly on your phone.</p>
+                        <p data-i18n="why-5-desc">Generate birth charts and detailed compatibility analysis reports in high-definition PDF instantly on your phone.</p>
                     </div>
                 </div>
 
@@ -343,8 +305,7 @@
                     <i class="fa-solid fa-square-check benefit-icon"></i>
                     <div class="benefit-info">
                         <h3 data-i18n="why-6-title">Reliable Live Support</h3>
-                        <p data-i18n="why-6-desc">Dedicated customer support team available via support ticketing and
-                            email to assist with all queries within 24 hours.</p>
+                        <p data-i18n="why-6-desc">Dedicated customer support team available via support ticketing and email to assist with all queries within 24 hours.</p>
                     </div>
                 </div>
             </div>
@@ -362,9 +323,8 @@
                     </div>
                     <div class="download-details">
                         <h3 data-i18n="down-title">Download Kalyansevak Jyotish</h3>
-                        <p data-i18n="down-desc">Get started instantly. Generate precise Kundli, analyze charts, and
-                            book verified astrologers. Secure payments handled via Cashfree.</p>
-
+                        <p data-i18n="down-desc">Get started instantly. Generate precise Kundli, analyze charts, and book verified astrologers. Secure payments handled via Cashfree.</p>
+                        
                         <div class="download-meta-list">
                             <div class="meta-item">
                                 <span class="meta-label" data-i18n="meta-platform-label">Platform</span>
@@ -383,10 +343,9 @@
                                 <span class="meta-value" data-i18n="meta-target-val">Android 14 (SDK 34)</span>
                             </div>
                         </div>
-
+                        
                         <div class="download-actions-row">
-                            <a href="https://github.com/vaibhav963963-netizen/kalyansevak-legal/releases/download/v1.0.0/app-release.apk"
-                                class="btn btn-primary" data-i18n="down-btn-apk">
+                            <a href="./app-release.apk" class="btn btn-primary" data-i18n="down-btn-apk">
                                 <i class="fa-solid fa-download"></i> Download APK File
                             </a>
                             <button class="btn btn-secondary btn-play-store-mock" data-i18n="down-btn-play">
@@ -404,38 +363,33 @@
         <div class="container">
             <div class="section-header">
                 <h2 data-i18n="guide-title">Installation Guide</h2>
-                <p data-i18n="guide-desc">Follow these quick, easy steps to download and install the application on your
-                    Android device.</p>
+                <p data-i18n="guide-desc">Follow these quick, easy steps to download and install the application on your Android device.</p>
             </div>
-
+            
             <div class="stepper-horizontal">
                 <!-- Step 1 -->
                 <div class="card step-card">
                     <div class="step-number">1</div>
                     <h3 data-i18n="step-1-title">Download APK</h3>
-                    <p data-i18n="step-1-desc">Click on "Download APK" above to download the secure package to your
-                        device's downloads folder.</p>
+                    <p data-i18n="step-1-desc">Click on "Download APK" above to download the secure package to your device's downloads folder.</p>
                 </div>
                 <!-- Step 2 -->
                 <div class="card step-card">
                     <div class="step-number">2</div>
                     <h3 data-i18n="step-2-title">Allow Install</h3>
-                    <p data-i18n="step-2-desc">If prompted by your browser, toggle "Allow Installation from Unknown
-                        Sources" in device settings.</p>
+                    <p data-i18n="step-2-desc">If prompted by your browser, toggle "Allow Installation from Unknown Sources" in device settings.</p>
                 </div>
                 <!-- Step 3 -->
                 <div class="card step-card">
                     <div class="step-number">3</div>
                     <h3 data-i18n="step-3-title">Run Installer</h3>
-                    <p data-i18n="step-3-desc">Open your downloads directory and click on `app-release.apk` to initiate
-                        the system installer.</p>
+                    <p data-i18n="step-3-desc">Open your downloads directory and click on `app-release.apk` to initiate the system installer.</p>
                 </div>
                 <!-- Step 4 -->
                 <div class="card step-card">
                     <div class="step-number">4</div>
                     <h3 data-i18n="step-4-title">Open App</h3>
-                    <p data-i18n="step-4-desc">Launch the app from your home screen, select your language, and create
-                        your first astrology chart!</p>
+                    <p data-i18n="step-4-desc">Launch the app from your home screen, select your language, and create your first astrology chart!</p>
                 </div>
             </div>
         </div>
@@ -446,10 +400,9 @@
         <div class="container">
             <div class="section-header">
                 <h2 data-i18n="faq-title">Frequently Asked Questions</h2>
-                <p data-i18n="faq-desc">Quick answers to common questions about installing the app, payment safety, and
-                    consulting astrologers.</p>
+                <p data-i18n="faq-desc">Quick answers to common questions about installing the app, payment safety, and consulting astrologers.</p>
             </div>
-
+            
             <div class="faq-accordion">
                 <!-- Item 1 -->
                 <div class="faq-item">
@@ -459,14 +412,11 @@
                     </button>
                     <div class="faq-body">
                         <div class="faq-content">
-                            <p data-i18n="faq-1-a">To install the APK: 1) Download the file `app-release.apk` from this
-                                site. 2) Tap the completed download in your notifications. 3) If prompted by your
-                                device's security, enable the "Install Unknown Apps" permission for your browser. 4) Tap
-                                "Install" to complete the setup.</p>
+                            <p data-i18n="faq-1-a">To install the APK: 1) Download the file `app-release.apk` from this site. 2) Tap the completed download in your notifications. 3) If prompted by your device's security, enable the "Install Unknown Apps" permission for your browser. 4) Tap "Install" to complete the setup.</p>
                         </div>
                     </div>
                 </div>
-
+                
                 <!-- Item 2 -->
                 <div class="faq-item">
                     <button class="faq-header">
@@ -475,9 +425,7 @@
                     </button>
                     <div class="faq-body">
                         <div class="faq-content">
-                            <p data-i18n="faq-2-a">Yes, 100% secure. We partner with Cashfree Payments, a leading
-                                PCI-DSS Level 1 compliant gateway. Card credentials or banking passwords are never
-                                processed or saved on our servers, ensuring absolute security for every purchase.</p>
+                            <p data-i18n="faq-2-a">Yes, 100% secure. We partner with Cashfree Payments, a leading PCI-DSS Level 1 compliant gateway. Card credentials or banking passwords are never processed or saved on our servers, ensuring absolute security for every purchase.</p>
                         </div>
                     </div>
                 </div>
@@ -490,9 +438,7 @@
                     </button>
                     <div class="faq-body">
                         <div class="faq-content">
-                            <p data-i18n="faq-3-a">You can contact our support desk directly by sending an email to
-                                vishwtejkulkarni@gmail.com. If you are inside the app, you can submit a support ticket
-                                via Settings &rarr; Support &rarr; Contact Us.</p>
+                            <p data-i18n="faq-3-a">You can contact our support desk directly by sending an email to vishwtejkulkarni@gmail.com. If you are inside the app, you can submit a support ticket via Settings &rarr; Support &rarr; Contact Us.</p>
                         </div>
                     </div>
                 </div>
@@ -505,9 +451,7 @@
                     </button>
                     <div class="faq-body">
                         <div class="faq-content">
-                            <p data-i18n="faq-4-a">When a new version is released, we will publish the updated APK here.
-                                You can download the latest version and run the installer; it will overwrite the
-                                existing application while preserving all your profile data and transaction history.</p>
+                            <p data-i18n="faq-4-a">When a new version is released, we will publish the updated APK here. You can download the latest version and run the installer; it will overwrite the existing application while preserving all your profile data and transaction history.</p>
                         </div>
                     </div>
                 </div>
@@ -520,9 +464,7 @@
                     </button>
                     <div class="faq-body">
                         <div class="faq-content">
-                            <p data-i18n="faq-5-a">We are currently undergoing Google's mandatory Play Store pre-release
-                                testing cycles. Once approved, the download link for the Google Play listing will go
-                                live here. Until then, you can safely use the APK version.</p>
+                            <p data-i18n="faq-5-a">We are currently undergoing Google's mandatory Play Store pre-release testing cycles. Once approved, the download link for the Google Play listing will go live here. Until then, you can safely use the APK version.</p>
                         </div>
                     </div>
                 </div>
@@ -535,10 +477,9 @@
         <div class="container">
             <div class="section-header">
                 <h2 data-i18n="test-title">User Reviews</h2>
-                <p data-i18n="test-desc">Read what our early users have to say about their experience with Kalyansevak
-                    Jyotish.</p>
+                <p data-i18n="test-desc">Read what our early users have to say about their experience with Kalyansevak Jyotish.</p>
             </div>
-
+            
             <div class="grid grid-3">
                 <!-- Card 1 -->
                 <div class="card testimonial-card">
@@ -549,8 +490,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <p class="testimonial-text" data-i18n="test-1-text">"The Kundli predictions are incredibly accurate!
-                        The chart is detailed and the interface is so smooth. Highly recommend."</p>
+                    <p class="testimonial-text" data-i18n="test-1-text">"The Kundli predictions are incredibly accurate! The chart is detailed and the interface is so smooth. Highly recommend."</p>
                     <div class="testimonial-author">
                         <div class="author-name">
                             <h4 data-i18n="test-1-author">Ramesh K.</h4>
@@ -558,7 +498,7 @@
                         </div>
                     </div>
                 </div>
-
+                
                 <!-- Card 2 -->
                 <div class="card testimonial-card">
                     <div class="star-rating">
@@ -568,8 +508,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star-half-stroke"></i>
                     </div>
-                    <p class="testimonial-text" data-i18n="test-2-text">"I booked a live pooja booking session and the
-                        astrologer was very helpful. The payment via Cashfree felt safe and simple."</p>
+                    <p class="testimonial-text" data-i18n="test-2-text">"I booked a live pooja booking session and the astrologer was very helpful. The payment via Cashfree felt safe and simple."</p>
                     <div class="testimonial-author">
                         <div class="author-name">
                             <h4 data-i18n="test-2-author">Anjali S.</h4>
@@ -587,8 +526,7 @@
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                     </div>
-                    <p class="testimonial-text" data-i18n="test-3-text">"Detailed PDF reports are downloadable
-                        instantly. This saves so much time compared to visiting consultants offline."</p>
+                    <p class="testimonial-text" data-i18n="test-3-text">"Detailed PDF reports are downloadable instantly. This saves so much time compared to visiting consultants offline."</p>
                     <div class="testimonial-author">
                         <div class="author-name">
                             <h4 data-i18n="test-3-author">Manoj P.</h4>
@@ -608,22 +546,16 @@
                     <div class="about-img-box">
                         <img src="./assets/pooja.png" alt="Auspicious Pooja Ceremony" loading="lazy">
                         <div class="about-overlay-badge">
-                            <i class="fa-solid fa-dharmachakra"></i> <span data-i18n="about-badge-trust">Trusted
-                                Spiritual Guidance</span>
+                            <i class="fa-solid fa-dharmachakra"></i> <span data-i18n="about-badge-trust">Trusted Spiritual Guidance</span>
                         </div>
                     </div>
                 </div>
                 <div class="about-content">
                     <h2 data-i18n="about-title">About Kalyansevak Jyotish</h2>
                     <h3 data-i18n="about-subtitle">Bringing Ancient Wisdom to the Digital Age</h3>
-                    <p data-i18n="about-desc-1">Kalyansevak Jyotish bridges ancient Vedic astrology traditions with
-                        state-of-the-art mobile technology. Our application is designed to serve as a reliable daily
-                        companion for horoscope calculations, birth chart interpretations, and spiritual ritual
-                        bookings.</p>
-                    <p data-i18n="about-desc-2">We operate on core principles of data transparency, strict privacy, and
-                        client trust. We ensure that your highly sensitive birth details are encrypted at the database
-                        level and never sold to third-party advertisers or brokers.</p>
-
+                    <p data-i18n="about-desc-1">Kalyansevak Jyotish bridges ancient Vedic astrology traditions with state-of-the-art mobile technology. Our application is designed to serve as a reliable daily companion for horoscope calculations, birth chart interpretations, and spiritual ritual bookings.</p>
+                    <p data-i18n="about-desc-2">We operate on core principles of data transparency, strict privacy, and client trust. We ensure that your highly sensitive birth details are encrypted at the database level and never sold to third-party advertisers or brokers.</p>
+                    
                     <div class="trust-badges">
                         <div class="trust-badge-item">
                             <i class="fa-solid fa-user-shield"></i>
@@ -644,10 +576,9 @@
         <div class="container">
             <div class="section-header">
                 <h2 data-i18n="contact-title">Get in Touch</h2>
-                <p data-i18n="contact-desc">Have some feedback, suggestions, or need billing support? Contact us and we
-                    will respond immediately.</p>
+                <p data-i18n="contact-desc">Have some feedback, suggestions, or need billing support? Contact us and we will respond immediately.</p>
             </div>
-
+            
             <div class="grid grid-2">
                 <div class="contact-info-panel">
                     <div class="card contact-card-item">
@@ -657,8 +588,7 @@
                         <div class="info-content">
                             <h3 data-i18n="contact-email-title">Email Support</h3>
                             <p data-i18n="contact-email-sub">For support, orders, and inquiries:</p>
-                            <a href="mailto:vishwtejkulkarni@gmail.com"
-                                class="contact-link">vishwtejkulkarni@gmail.com</a>
+                            <a href="mailto:vishwtejkulkarni@gmail.com" class="contact-link">vishwtejkulkarni@gmail.com</a>
                         </div>
                     </div>
 
@@ -669,8 +599,7 @@
                         <div class="info-content">
                             <h3 data-i18n="contact-wa-title">WhatsApp Support</h3>
                             <p data-i18n="contact-wa-sub">Send a message for app help:</p>
-                            <a href="https://wa.me/919011162819" target="_blank" class="contact-link">+91 90111
-                                62819</a>
+                            <a href="https://wa.me/919999999999" target="_blank" class="contact-link">+91 99999 99999</a>
                         </div>
                     </div>
 
@@ -685,25 +614,17 @@
                         </div>
                     </div>
                 </div>
-
+                
                 <div class="contact-form-panel">
                     <div class="card contact-form-card">
                         <h3 data-i18n="grievance-title">Grievance & Support Desk</h3>
-                        <p data-i18n="grievance-desc">In accordance with the Consumer Protection (E-Commerce) Rules,
-                            2020, we have set up dedicated redressal channels to assist you.</p>
-
+                        <p data-i18n="grievance-desc">In accordance with the Consumer Protection (E-Commerce) Rules, 2020, we have set up dedicated redressal channels to assist you.</p>
+                        
                         <div class="contact-card" style="margin-top: 16px; padding: 20px;">
-                            <h4 class="text-primary mb-2" style="color: var(--primary); font-size: 1.1rem;"
-                                data-i18n="grievance-officer-title"><i class="fa-solid fa-user-tie"></i> Grievance
-                                Officer</h4>
-                            <p style="margin-bottom: 8px;" data-i18n="grievance-officer-name"><strong>Name:</strong>
-                                Vishwtej Kulkarni</p>
-                            <p style="margin-bottom: 8px;" data-i18n="grievance-officer-desg">
-                                <strong>Designation:</strong> Grievance Redressal Officer
-                            </p>
-                            <p style="margin-bottom: 8px;" data-i18n="grievance-officer-email"><strong>Email:</strong>
-                                <a href="mailto:vishwtejkulkarni@gmail.com">vishwtejkulkarni@gmail.com</a>
-                            </p>
+                            <h4 class="text-primary mb-2" style="color: var(--primary); font-size: 1.1rem;" data-i18n="grievance-officer-title"><i class="fa-solid fa-user-tie"></i> Grievance Officer</h4>
+                            <p style="margin-bottom: 8px;" data-i18n="grievance-officer-name"><strong>Name:</strong> Vishwtej Kulkarni</p>
+                            <p style="margin-bottom: 8px;" data-i18n="grievance-officer-desg"><strong>Designation:</strong> Grievance Redressal Officer</p>
+                            <p style="margin-bottom: 8px;" data-i18n="grievance-officer-email"><strong>Email:</strong> <a href="mailto:vishwtejkulkarni@gmail.com">vishwtejkulkarni@gmail.com</a></p>
                         </div>
                     </div>
                 </div>
@@ -719,8 +640,7 @@
                     <img src="./assets/app_icon.png" alt="Kalyansevak Jyotish Logo" class="footer-logo">
                     <span>Kalyansevak Jyotish</span>
                 </div>
-                <p data-i18n="footer-desc">Authentic spiritual and astrological guidance at your fingertips. Calculate
-                    Kundli, analyze charts, and book verified astrologers securely.</p>
+                <p data-i18n="footer-desc">Authentic spiritual and astrological guidance at your fingertips. Calculate Kundli, analyze charts, and book verified astrologers securely.</p>
                 <div class="social-links">
                     <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
@@ -757,8 +677,7 @@
         </div>
         <div class="footer-bottom">
             <p data-i18n="footer-copyright">&copy; 2026 Kalyansevak Jyotish. All Rights Reserved.</p>
-            <p class="footer-meta" data-i18n="footer-meta">App Version 1.0.0 (Android) | Built with ❤️ for Spiritual
-                Guidance</p>
+            <p class="footer-meta" data-i18n="footer-meta">App Version 1.0.0 (Android) | Built with ❤️ for Spiritual Guidance</p>
         </div>
     </footer>
 
@@ -768,5 +687,4 @@
     <!-- Script file -->
     <script src="./js/main.js"></script>
 </body>
-
 </html>

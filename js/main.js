@@ -473,16 +473,6 @@ document.addEventListener('DOMContentLoaded', () => {
         htmlElement.setAttribute('data-theme', 'light');
         updateThemeToggleIcon('light');
     }
-
-    // Listen for device theme preference changes in real-time
-    const themeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    themeMediaQuery.addEventListener('change', (e) => {
-        if (!localStorage.getItem('theme')) {
-            const newTheme = e.matches ? 'dark' : 'light';
-            htmlElement.setAttribute('data-theme', newTheme);
-            updateThemeToggleIcon(newTheme);
-        }
-    });
     
     if (themeToggleBtn) {
         themeToggleBtn.addEventListener('click', () => {
