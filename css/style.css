@@ -1903,3 +1903,73 @@ table tr:nth-child(even) {
     from { opacity: 0; transform: translateY(-8px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+/* Mobile Language Selector inside Navbar Drawer */
+.nav-mobile-lang {
+    display: none;
+    flex-direction: column;
+    gap: 12px;
+    padding: 16px 0;
+    border-top: 1px solid var(--border-color);
+    margin-top: 12px;
+}
+
+.mobile-lang-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.mobile-lang-label i {
+    color: var(--primary);
+    font-size: 1.05rem;
+}
+
+.mobile-lang-options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
+
+.mobile-lang-options .lang-option {
+    display: block;
+    width: 100%;
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 10px 0;
+    border-radius: var(--radius-sm);
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: var(--font-heading);
+    transition: all var(--transition-fast);
+}
+
+.mobile-lang-options .lang-option:hover {
+    border-color: var(--primary);
+    background-color: var(--primary-light);
+}
+
+.mobile-lang-options .lang-option.active {
+    background-color: var(--primary) !important;
+    border-color: var(--primary);
+    color: #FFFFFF !important;
+}
+
+/* Responsiveness adjustments for Language switcher on mobile */
+@media (max-width: 991px) {
+    .lang-selector {
+        display: none !important; /* Hide dropdown in mobile header */
+    }
+    
+    .nav-mobile-lang {
+        display: flex; /* Show in mobile nav menu drawer */
+    }
+}
