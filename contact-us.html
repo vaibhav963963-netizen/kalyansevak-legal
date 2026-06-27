@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Kalyansevak Jyotish</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="legal-page">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="index.html" class="nav-logo">
+                <img src="./assets/app_icon.png" alt="Kalyansevak Jyotish Logo" class="nav-logo-img">
+                <span class="nav-brand">Kalyansevak <span class="accent-text">Jyotish</span></span>
+            </a>
+            <div class="nav-menu" id="navMenu">
+                <a href="index.html#features" class="nav-link" data-i18n="nav-features">Features</a>
+                <a href="index.html#screenshots" class="nav-link" data-i18n="nav-screenshots">Screenshots</a>
+                <a href="index.html#how-it-works" class="nav-link" data-i18n="nav-install">How to Install</a>
+                <a href="index.html#faq" class="nav-link" data-i18n="nav-faq">FAQ</a>
+                <a href="contact-us.html" class="nav-link active" data-i18n="nav-contact">Contact Us</a>
+                <div class="nav-mobile-cta">
+                    <a href="./app-release.apk" class="btn btn-primary btn-sm download-btn-trigger" data-i18n="nav-download">Download APK</a>
+                </div>
+            </div>
+            <div class="nav-actions">
+                <!-- Language Selector Dropdown -->
+                <div class="lang-selector">
+                    <button class="lang-btn" id="langBtn" aria-label="Change Language">
+                        <i class="fa-solid fa-language"></i>
+                        <span id="currentLang">English</span>
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <div class="lang-dropdown" id="langDropdown">
+                        <button class="lang-option active" data-lang="en">English</button>
+                        <button class="lang-option" data-lang="hi">हिंदी</button>
+                        <button class="lang-option" data-lang="mr">मराठी</button>
+                    </div>
+                </div>
+
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark/light mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <a href="./app-release.apk" class="btn btn-primary btn-sm desktop-only-btn download-btn-trigger" data-i18n="nav-download">Download APK</a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="legal-container">
+        <div class="breadcrumbs">
+            <a href="index.html">Home</a> <i class="fa-solid fa-chevron-right"></i> <span>Contact Us</span>
+        </div>
+        
+        <header class="legal-header">
+            <h1 data-i18n="contact-title">Contact Us</h1>
+            <p class="subtitle" data-i18n="contact-desc">Have questions or need assistance? Reach out to our dedicated support team.</p>
+        </header>
+
+        <section class="contact-section">
+            <div class="grid grid-2">
+                <!-- Contact Info Cards -->
+                <div class="contact-info-panel">
+                    <div class="card contact-card-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3 data-i18n="contact-email-title">Email Support</h3>
+                            <p data-i18n="contact-email-sub">For general inquiries, account assistance, or payment disputes:</p>
+                            <a href="mailto:vishwtejkulkarni@gmail.com" class="contact-link">vishwtejkulkarni@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="card contact-card-item">
+                        <div class="icon-box">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3 data-i18n="contact-wa-title">WhatsApp Support</h3>
+                            <p data-i18n="contact-wa-sub">Get quick, conversational assistance for app usability:</p>
+                            <a href="https://wa.me/919999999999" target="_blank" class="contact-link">+91 99999 99999</a>
+                        </div>
+                    </div>
+
+                    <div class="card contact-card-item">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3 data-i18n="contact-time-title">Response Timelines</h3>
+                            <p data-i18n="contact-time-sub1">Support queries: Acknowledged within 48 hours.</p>
+                            <p data-i18n="contact-time-sub2">Service assistance: Live daily 10 AM - 7 PM IST.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Grievance & Support Details -->
+                <div class="contact-form-panel">
+                    <div class="card contact-form-card">
+                        <h3 data-i18n="grievance-title">Grievance & Support Desk</h3>
+                        <p data-i18n="grievance-desc">In accordance with the Consumer Protection (E-Commerce) Rules, 2020, we have set up dedicated redressal channels to assist you.</p>
+                        
+                        <div class="contact-card" style="margin-top: 16px; padding: 20px;">
+                            <h4 class="text-primary mb-2" style="color: var(--primary); font-size: 1.1rem;" data-i18n="grievance-officer-title"><i class="fa-solid fa-user-tie"></i> Grievance Officer</h4>
+                            <p style="margin-bottom: 8px;" data-i18n="grievance-officer-name"><strong>Name:</strong> Vishwtej Kulkarni</p>
+                            <p style="margin-bottom: 8px;" data-i18n="grievance-officer-desg"><strong>Designation:</strong> Grievance Redressal Officer</p>
+                            <p style="margin-bottom: 8px;" data-i18n="grievance-officer-email"><strong>Email:</strong> <a href="mailto:vishwtejkulkarni@gmail.com">vishwtejkulkarni@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <div class="logo-wrapper">
+                    <img src="./assets/app_icon.png" alt="Kalyansevak Jyotish Logo" class="footer-logo">
+                    <span>Kalyansevak Jyotish</span>
+                </div>
+                <p data-i18n="footer-desc">Authentic spiritual and astrological guidance at your fingertips. Calculate Kundli, analyze charts, and book verified astrologers securely.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footer-quick-links">Quick Links</h4>
+                <ul>
+                    <li><a href="index.html#features" data-i18n="nav-features">Features</a></li>
+                    <li><a href="index.html#screenshots" data-i18n="nav-screenshots">Screenshots</a></li>
+                    <li><a href="index.html#how-it-works" data-i18n="nav-install">How to Install</a></li>
+                    <li><a href="index.html#faq" data-i18n="nav-faq">FAQ</a></li>
+                    <li><a href="contact-us.html" data-i18n="nav-contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footer-legal-pages">Legal Pages</h4>
+                <ul>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                    <li><a href="refund-policy.html">Refund Policy</a></li>
+                    <li><a href="account-deletion.html">Account Deletion</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4 data-i18n="footer-support-header">Support</h4>
+                <ul>
+                    <li><strong>Email:</strong> vishwtejkulkarni@gmail.com</li>
+                    <li data-i18n="footer-support-hours"><strong>Hours:</strong> 10:00 AM - 7:00 PM IST</li>
+                    <li data-i18n="footer-support-resp"><strong>Response:</strong> Within 24-48 Hours</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footer-copyright">&copy; 2026 Kalyansevak Jyotish. All Rights Reserved.</p>
+            <p class="footer-meta" data-i18n="footer-meta">App Version 1.0.0 (Android) | Built with ❤️ for Spiritual Guidance</p>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- Script -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
